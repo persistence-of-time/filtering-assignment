@@ -19,9 +19,10 @@ You will find this is far easier than the opposite task of using CSS to cram you
 }
 
 html,
+
 body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-family: 'Alegreya', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -48,7 +49,7 @@ body {
     margin: 0px auto;
     color    : #8e8a8a;
   }
-
+  
 .container {
    width: 95%;
     margin: 0 auto;
@@ -132,7 +133,10 @@ select {
     .wrap{
         display:flex;
     }
-
+    .spacer {
+        display: flex;
+        height: 150px;
+      }
     #info > div {
         flex-basis: calc(33% - 5px);
         text-align: center; 
