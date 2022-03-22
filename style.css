@@ -68,7 +68,7 @@ body {
     display: block;
     margin : 0 auto;
     border-radius: 15px;
-    padding: 5px;
+    padding: 3px;
 }
 
 #caption {
@@ -86,13 +86,13 @@ select {
     margin-bottom: 10px;
 }
 
-#food {
+#info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#food > div {
+#info > div {
     flex-basis: calc(50% - 5px);
     text-align: center;
     transition: all 0.5s ease-in-out;
@@ -133,7 +133,7 @@ select {
         display:flex;
     }
 
-    #food > div {
+    #info > div {
         flex-basis: calc(33% - 5px);
         text-align: center; 
     }
