@@ -21,12 +21,12 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html,
 body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-family: 'Karla', sans-serif;
+    font-family: 'Alegreya', serif;
     font-size: 16px;
 }
 
 .byline {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color    : #3e8ef7;
     padding  : 5px 0;
 }
@@ -36,6 +36,18 @@ body {
     color    : #8e8a8a;
     padding  : 5px 0;
 }
+
+.summary {
+    font-size: 1.2rem;
+}
+
+.about {
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: left;
+    margin: 0px auto;
+    color    : #8e8a8a;
+  }
 
 .container {
    width: 95%;
@@ -81,7 +93,7 @@ select {
 }
 
 #food > div {
-    flex-basis: calc(50% - 10px);
+    flex-basis: calc(50% - 5px);
     text-align: center;
     transition: all 0.5s ease-in-out;
 }
@@ -102,7 +114,6 @@ select {
 
 
 .box{
-    height: 100vh;
     flex-basis: calc(50% - 10px);
     
 }
@@ -119,9 +130,11 @@ select {
 @media(min-width: 681px) {
     
     .wrap{
-        display:flex;}
+        display:flex;
+    }
+
     #food > div {
-        flex-basis: calc(33% - 10px);
+        flex-basis: calc(33% - 5px);
         text-align: center; 
     }
     .mobile {
